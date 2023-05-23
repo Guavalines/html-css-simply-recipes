@@ -305,4 +305,9 @@ Navbar
   letter-spacing: var(--letterSpacing);
   padding: 1rem 0;
   border-top: 1px solid var(--grey-500);
+  transition: var(--transition);
+}
+
+.nav-link:hover {
+  color: var(--primary-500);
 }
