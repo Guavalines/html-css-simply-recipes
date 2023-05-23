@@ -279,6 +279,12 @@ Navbar
   align-items: center;
 }
 
+.nav-logo{
+  /* background: red; */
+  display: flex;
+  align-items: center;
+}
+
 .nav-header img{
   width: 200px;
 }
@@ -310,4 +316,8 @@ Navbar
 
 .nav-link:hover {
   color: var(--primary-500);
+}
+
+.contact-link a{
+  padding: 0.15rem 1rem;
 }
